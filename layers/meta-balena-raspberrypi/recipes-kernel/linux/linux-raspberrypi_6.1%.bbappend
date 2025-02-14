@@ -7,6 +7,11 @@ SRC_URI:append:raspberrypi4-superhub = " \
 	file://0004-Add-SD-host-DT-overlay-for-Phoenix-Board.patch \
 "
 
+SRC_URI:append:raspberrypi4-sensing = " \
+	file://0001-add-ed-mcp2515-dts.patch \
+	file://0002-add-ed-sdhost-dts.patch \
+"
+
 SRC_URI:append = " \
 	file://0002-wireless-wext-Bring-back-ndo_do_ioctl-fallback.patch \
 	file://0001-Add-npe-x500-m3-overlay.patch \
